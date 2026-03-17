@@ -10,6 +10,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import FloatingCan from "@/components/FloatingCan";
 import { useMediaQuery } from "@/hooks/useMediaQuery";
+import { SodaCanProps } from "@/components/SodaCan";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
@@ -139,7 +140,7 @@ export default function Scene({ sentence, flavor }: SkyDiveProps) {
             <group rotation={[0, 0, 0.5]}>
                 <FloatingCan
                     ref={canRef}
-                    flavor={flavor}
+                    flavor={flavor as SodaCanProps['flavor']}
                     rotationIntensity={0}
                     floatIntensity={3}
                     floatSpeed={3}
