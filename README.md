@@ -10,3 +10,5 @@ The site showcases a floating soda can rendered in 3D with smooth animations, sc
 * React Three Fiber & Drei – React abstractions for Three.js
 * GSAP & ScrollTrigger – High-performance animations and scroll interactions
 * Tailwind CSS – Utility-first styling
+
+[Live site](https://fizzi-rob.netlify.app/)
